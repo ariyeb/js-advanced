@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <link
+        rel="stylesheet"
+        href="./phone-book.css"
+    >
+    <title>Phone Book</title>
+</head>
+
+<body>
+    <h1>Phone Book</h1>
+    <form id="form-add-number">
+        <input
+            type="text"
+            placeholder="Name"
+        >
+        <input
+            type="text"
+            placeholder="Phone number"
+        >
+        <button type="submit">Submit</button>
+        <div
+            class="none"
+            id="warning"
+        >The phone number is invalid</div>
+    </form>
+
+    <input
+        type="text"
+        placeholder="Search"
+        id="serach-number"
+    >
+    <select id="select-order">
+        <option value="a..z">A..Z</option>
+        <option value="z..a">Z..A</option>
+    </select>
+    <div id="div-phone-book"></div>
+
+    <script src="./phone-book.js"></script>
+</body>
+
+</html>
